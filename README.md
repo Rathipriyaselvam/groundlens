@@ -8,7 +8,7 @@
 
 ## 🚀 Live Demo
 
-👉 **[Open GroundLens Live](https://groundlens-ejcm7l7lcjrztkozqutrtn.streamlit.app/)**
+👉 **[Open GroundLens Live]([https://groundlens-ejcm7l7lcjrztkozqutrtn.streamlit.app/])**
 
 > **GroundLens** is an evidence-first, open-weights AI agent built on **LangGraph**.
 
