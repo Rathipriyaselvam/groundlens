@@ -174,7 +174,7 @@ class WeatherService:
                 "source_type": "open_meteo",
                 "title": f"Live Weather for {loc_label}",
                 "content": content,
-                "url": f"https://open-meteo.com/en/forecast?latitude={lat}&longitude={lon}",
+                "url": f"https://open-meteo.com/en/docs#latitude={lat:.2f}&longitude={lon:.2f}",
                 "location": loc_label,
                 "temperature": float(temp),
                 "humidity": int(humidity) if humidity is not None else None,

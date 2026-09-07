@@ -206,12 +206,15 @@ class CountriesService:
             f"Borders: {borders_str}."
         )
 
+        country_slug = country_name.lower().replace(' ', '-')
+        source_url = f"https://data.worldbank.org/country/{alpha2.lower()}" if alpha2 else f"https://restcountries.com"
+
         result: Dict[str, Any] = {
             "source_id": "restcountries_01",
             "source_type": "rest_countries",
-            "title": f"REST Countries Profile for {country_name}",
+            "title": f"REST Countries & World Bank Profile for {country_name}",
             "content": content,
-            "url": f"https://restcountries.com/v3.1/name/{country_name.lower().replace(' ', '%20')}",
+            "url": source_url,
             "country_name": country_name,
             "capital": capital,
             "population": population,
