@@ -1,0 +1,27 @@
+# Core Agent & LLM Framework
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+groq>=0.11.0
+
+# Community Data Sources
+praw>=7.7.0
+
+# HTTP & REST Integrations
+requests>=2.31.0
+httpx>=0.27.0
+
+# Configuration & Data Validation
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0
+
+# Observability
+langsmith>=0.1.0
+
+# UI
+streamlit>=1.35.0
+
+# Testing & Quality
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
