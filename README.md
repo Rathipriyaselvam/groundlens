@@ -6,6 +6,12 @@
 [![Streamlit](https://img.shields.io/badge/ui-Streamlit-red.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## 🚀 Live Demo
+
+👉 **[Open GroundLens Live](https://groundlens-ejcm7l7lcjrztkozqutrtn.streamlit.app/)**
+
+> **GroundLens** is an evidence-first, open-weights AI agent built on **LangGraph**.
+
 > **GroundLens** is an evidence-first, open-weights AI agent built on **LangGraph**. It accepts natural-language questions, dynamically classifies intent, retrieves live verified data from community discussions and public REST APIs, strictly grounds its reasoning on retrieved evidence, enforces citation validation, defends against prompt injection, filters unsafe content, and provides full observability.
 
 ---
